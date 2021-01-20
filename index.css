@@ -1,0 +1,443 @@
+*{
+   padding: 0px;
+   background-color: white;
+   margin: 0px;
+
+}
+
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+
+.nav{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 2px; 
+    
+
+}
+
+#left{
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+
+}
+
+#right{
+
+    width: 75%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+
+}
+
+#right div{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Passion One', cursive;
+    font-weight: bold;
+    /* background-color: #222222; */
+    color: #222222;;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+#right div a{
+    text-decoration: none;
+    /* background-color: #222222; */
+    font-family: 'Trispace', sans-serif;
+    color: #222222;;
+    
+}
+
+@media(min-width:411px){
+    #right div a{
+    
+        letter-spacing: 2px;
+        margin: 4px;
+    }
+}
+
+@media (max-width:585px){
+    #left{
+        width:20%
+    }
+
+    #right{
+        width:80%
+    }
+    #left img{
+        width: 130px;
+        margin-left: 5px;
+    }
+    #right div{
+        font-size: 12px;
+        font-family: 'Passion One', cursive;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:320px){
+#right div a {
+      font-size: 9px;
+}
+}
+
+/* navigation bar end */
+
+
+/* middle section start */
+
+.container{
+    /* border: 2px solid black; */
+    background-color:#FDFAF7 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    
+    color: black;
+    /* border: 2px solid black; */
+    background-color: #FDFAF7;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: mikki;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 120px 0 rgba(0, 0, 0, 0.19);
+    letter-spacing: 4px;
+    font: 16px;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.4s;
+   /* animation-name: mikki2; */
+}
+
+@keyframes mikki{
+   0%{
+       letter-spacing: 4px;
+   }
+
+   
+   50%{
+       letter-spacing: 7px;
+       /* font-weight: bold; */
+   }
+   
+   100%{
+       letter-spacing: 4px;
+   }
+}
+/* @keyframes mikki2{
+    0%{
+        font-size: 16px;
+    }
+
+    100%{
+        font-size: 20px;
+    }
+
+} */
+
+
+/* product starts here */
+
+/* mobile responsive */
+
+@media (max-width:540px)
+{
+
+
+
+.mid-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7) */
+    border-radius: 20px;
+    
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 120px 0 rgba(0, 0, 0, 0.19);
+}
+.insideitem1 img{
+    height: 90px;
+    width: 150px;
+}
+.insideitem1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* font-style: arial; */
+    /* font-weight: bold; */
+    
+    height: 90px;
+    width: 150px;
+    /* border: 1px solid black; */
+}
+
+
+#i_item{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+
+.boxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid black; */
+}
+
+#upper{
+    font-weight: bold;
+    
+    background-color: #FDFAF7;
+    font-size: 16px;
+}
+#lower{
+    font-weight: bold;
+    font-size: 16px;
+    height: 25px;
+    margin-bottom: -4px;
+    background-color: #46A049;
+    
+    color: white;
+}
+
+#lower a{
+    text-decoration: none;
+    color: white;
+    background-color: #46A049;
+    border-radius: 20px;
+}
+#last{
+    height: 130px;
+    width: 100%;
+    /* border: 2px solid #332F30; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.lastdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: space-between; */
+   
+    
+    
+}
+
+#lastdiv1{
+    border-top: 3px solid #424242 ;
+    padding-top: 5px;
+    margin-right: -19px;
+}
+
+#lastdiv1 a img{
+    height: 25px;
+    width: 25px;
+     margin-right: 15px;
+}
+
+#lastdiv3{
+    color: #424242;
+    font-size: 12px;
+    margin-left: -3px;
+}
+#lastdiv2{
+    display: flex;
+    justify-content: space-evenly;
+    color: #424242;
+    font-size: 12px;
+    margin-right: -35px;
+
+}
+#lastdiv2 div a{
+    text-decoration: none;
+    color: #424242;
+
+}
+
+
+}
+/* mobile responsive end */
+
+/* computer responsive start */
+
+
+
+@media (min-width:540px){
+    @keyframes mikki{
+        0%{
+            letter-spacing: 4px;
+        }
+     
+        
+        50%{
+            letter-spacing: 19px;
+            /* font-weight: bold; */
+        }
+        
+        100%{
+            letter-spacing: 4px;
+        }
+     }
+.mid-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* border: 2px solid black; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 120px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7) */
+    border-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.insideitem1 img{
+    height:270px;
+    width: 450px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.insideitem1{
+    height:270px;
+    width: 450px;
+   
+   
+}
+
+#i_item{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+
+.boxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid black; */
+}
+
+#upper{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+#lower{
+    font-weight: bold;
+    font-size: 22px;
+    height: 60px;
+    margin-bottom: -24px;
+    background-color: #46A049;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 120px 0 rgba(0, 0, 0, 0.19);
+}
+#lower a{
+    text-decoration: none;
+    color: white;
+    background-color: #46A049;
+  
+}
+
+#last{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    
+    /* border: 4px solid #332F30 ; */
+}
+
+.lastdiv{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* align-content: space-between; */
+    
+    
+}
+
+#lastdiv1{
+    border-top: 3px solid #424242 ;
+}
+
+#lastdiv1 a #whatsapp img {
+    height: 52px;
+    width: 52px;
+}
+
+#lastdiv1 a img{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+    
+}
+
+#lastdiv2{
+    display: flex;
+    justify-content: space-around;
+    
+    color: #424242;
+    font-size: 16px;
+    margin-right: -34px;
+
+}
+#lastdiv2 div a{
+    text-decoration: none;
+    color: #424242;
+
+}
+#lastdiv3{
+    color: #424242;
+     font-size: 22px;
+}
+#lastdiv1 a #whatsapp img{
+    height: 52px;
+    width: 52px;
+}
+
+
+}
+
+
+
